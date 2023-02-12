@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine(" ***************** WELCOME TO LOGICAL PROGRAMS **************** ");
-            StopWatchcs obj = new StopWatchcs();
-            obj.getStopWatch();
+            PrimeNumber obj = new PrimeNumber();
+            obj.getPrimeNumber();
             Console.ReadLine(); 
         }
     }

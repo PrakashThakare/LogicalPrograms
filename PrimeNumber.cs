@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace LogicalPrograms
 {
-    internal class PrimeNumber
+    public class PrimeNumber
     {
+        public void getPrimeNumber()
+        {
+            Console.WriteLine("Enter Number for Check Prime Number or Not");
+            int iValue = Convert.ToInt32(Console.ReadLine());
+
+            for(int i=2;i< iValue; i++)
+            {
+                if(iValue%i==0)
+                {
+                    Console.WriteLine("It Is Not Prime Number");
+                    return;
+                }
+            }
+            Console.WriteLine("It is Prime Number");
+        }
     }
 }

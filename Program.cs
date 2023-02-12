@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine(" ***************** WELCOME TO LOGICAL PROGRAMS **************** ");
-            FibonacciSeries obj= new FibonacciSeries();
-            obj.getFibonacciSeris();
+            PerfectNumber obj = new PerfectNumber();
+            obj.getPerfectNumber();
             Console.ReadLine(); 
         }
     }

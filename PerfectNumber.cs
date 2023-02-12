@@ -13,9 +13,12 @@ namespace LogicalPrograms
             Console.WriteLine("Enter Number for Perfect Number");
             int iValue = Convert.ToInt32(Console.ReadLine());
             int iSum = 0;
-            for(int i=0;i<=(iValue/2);i++)
+            for(int i=1;i<iValue;i++)
             {
-                iSum = iSum + i;
+                if(iValue % i == 0)
+                {
+                    iSum = iSum + i;
+                }
             }
             if(iSum == iValue)
             {

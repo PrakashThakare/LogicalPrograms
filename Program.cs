@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine(" ***************** WELCOME TO LOGICAL PROGRAMS **************** ");
-            PerfectNumber obj = new PerfectNumber();
-            obj.getPerfectNumber();
+            ReverseNumber obj = new ReverseNumber();
+            obj.getReverseNumber();
             Console.ReadLine(); 
         }
     }

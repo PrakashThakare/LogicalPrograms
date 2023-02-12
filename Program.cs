@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine(" ***************** WELCOME TO LOGICAL PROGRAMS **************** ");
-            ReverseNumber obj = new ReverseNumber();
-            obj.getReverseNumber();
+            StopWatchcs obj = new StopWatchcs();
+            obj.getStopWatch();
             Console.ReadLine(); 
         }
     }
